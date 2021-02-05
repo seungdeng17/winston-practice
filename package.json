@@ -1,0 +1,25 @@
+{
+  "name": "winston-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seungdeng17/winston-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seungdeng17/winston-practice/issues"
+  },
+  "homepage": "https://github.com/seungdeng17/winston-practice#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "winston": "^3.3.3",
+    "winston-daily-rotate-file": "^4.5.0"
+  }
+}
